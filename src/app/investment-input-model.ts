@@ -1,6 +1,15 @@
 export interface investmentInput {
-    initialInvestment: number;
-    duration: number;
-    expectedReturn: number;
-    annualInvestment: number;
-  }
+  initialInvestment: number;
+  annualInvestment: number; 
+  expectedReturn: number;
+  duration: number;
+}
+
+export interface results {
+  year: number;
+  interest: number;
+  valueEndOfYear: number;
+  annualInvestment: number;
+  totalInterest: number;
+  totalAmountInvested: number;
+};
